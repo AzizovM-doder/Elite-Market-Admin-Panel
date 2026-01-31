@@ -18,7 +18,7 @@ export function Dashboard() {
       <Sidenav
         routes={routes}
         brandImg={
-          sidenavType === "dark" ? "/public/img/logo.png" : "/public/img/logo.png"
+          sidenavType === "dark" ? "/img/logo.png" : "/img/logo.png"
         }
         brandName="Elite Market Admin Panel"
       />
