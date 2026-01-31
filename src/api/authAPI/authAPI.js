@@ -8,9 +8,7 @@ export const loginUser = createAsyncThunk(
       const res = await toast.promise(
         apiInstance.post("/Account/login", user),
         {
-          loading: "Signing in...",
-          success: "Logged in successfully!",
-          error: "Login failed!",
+          loading: "Signing in..."
         }
       );
       return res.data;

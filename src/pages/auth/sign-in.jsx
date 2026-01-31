@@ -20,10 +20,9 @@ export function SignIn() {
     };
     try {
       await dispatch(loginUser(newUser));
-      toast.success("Signed successfully!")
       navigate('/')
     } catch (error) {
-      toast.error("Something went wrong!")
+      console.error(error);
     }
     e.target.reset();
   }

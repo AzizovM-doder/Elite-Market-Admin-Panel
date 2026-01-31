@@ -2,7 +2,6 @@ import {
   HomeIcon,
   UserCircleIcon,
   TableCellsIcon,
-  ServerStackIcon,
   ShoppingCartIcon,
   BookmarkIcon,
   Bars3BottomLeftIcon,
